@@ -3,12 +3,13 @@ import "./Naviagtion.css";
 import vr from "../img/vr.png";
 import "./FontFace.css";
 import "./Variable.css";
+import TypeWriterEffect from "react-typewriter-effect";
 
 const Navigation = () => {
   return (
     <>
-      <header className="text-gray-600 body-font">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center w-11/12">
+      <header className="">
+        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center w-11/12 relative z-1">
           <a className="flex title-font font-medium items-center mb-4 md:mb-0 mt-3">
             <svg
               width="46"
@@ -47,14 +48,33 @@ const Navigation = () => {
             </svg>
           </button>
         </div>
-        {/* <section className="grid grid-cols-2 border-4 border-indigo-500/100 relative z-10">
-          <div>
-            <h1>Welcome</h1>
+        <section className="grid grid-cols-1 place-items-center  w-full">
+          <div className="w-11/12">
+            <div className="bar mb-4"></div>
+            <h1 className="font-bold flex">
+              We &nbsp;
+              <TypeWriterEffect 
+                textStyle={{
+                  fontFamily: "Hanson",
+                  color: "#F6F6EB",
+                  fontSize: "1em",
+                }}
+                startDelay={2000}
+                cursorColor="#F6F6EB"
+                multiText={["Execute", "Analyse", "Give Results"]}
+                loop={true}
+                nextTextDelay={1000}
+                typeSpeed={30}
+              />
+            </h1>
+            <p className="mb-12">
+              Create A Virtual Platform For Your Business <br /> At An Instant
+            </p>
+            <button className="inline-flex items-center bg-gray-100 border-0 p-2 px-4 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 font-medium">
+              Get a Tech Fact
+            </button>
           </div>
-          <div className="">
-            <img src={vr} alt="Person with VR" className="p-3"/>
-          </div>
-        </section> */}
+        </section>
       </header>
     </>
   );

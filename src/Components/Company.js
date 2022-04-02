@@ -10,10 +10,12 @@ import deal from "../img/deal.gif";
 const Company = () => {
   return (
     <>
-      <section className="w-full grid place-items-center">
+      <section className="w-full grid place-items-center mt-16 ">
         <div className="grid grid-cols-2 place-items-center w-11/12 gap-x-40">
           <div>
-            <h3 className="font-medium mb-7 h3">// DISCOVER OUR <span className="company relative">COMPANY</span></h3>
+            <h3 className="font-medium mb-7 h3">
+              // DISCOVER OUR <span className="company relative">COMPANY</span>
+            </h3>
             <h1 className="mb-7 h1">
               Bringing New IT Business Solutions And Ideas
             </h1>
