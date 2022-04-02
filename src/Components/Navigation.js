@@ -8,7 +8,7 @@ import TypeWriterEffect from "react-typewriter-effect";
 const Navigation = () => {
   return (
     <>
-      <header className="">
+      <header>
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center w-11/12 relative z-1">
           <a className="flex title-font font-medium items-center mb-4 md:mb-0 mt-3">
             <svg
@@ -25,15 +25,23 @@ const Navigation = () => {
                 fill="#F6F6EB"
               />
             </svg>
-            <span className="ml-3 text-xl">TECH LOADERS</span>
+            <span className="ml-3 text-xl title-tl">TECH LOADERS</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-gray-200 font-normal">Home</a>
-            <a className="mr-5 hover:text-gray-200 font-normal">About</a>
-            <a className="mr-5 hover:text-gray-200 font-normal">Services</a>
-            <a className="mr-5 hover:text-gray-200 font-normal">Contact Us</a>
+            <a className="mr-5 hover:text-gray-200 font-normal mx-8 nav-link">
+              Home
+            </a>
+            <a className="mr-5 hover:text-gray-200 font-normal mx-8 nav-link">
+              About
+            </a>
+            <a className="mr-5 hover:text-gray-200 font-normal mx-8 nav-link">
+              Services
+            </a>
+            <a className="mr-5 hover:text-gray-200 font-normal mx-8 nav-link">
+              Contact Us
+            </a>
           </nav>
-          <button className="inline-flex items-center bg-gray-100 border-0 p-2 px-4 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 font-medium">
+          <button className="login-btn inline-flex items-center bg-gray-100 border-0 p-2 px-4 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 font-medium">
             Log In
             <svg
               fill="none"
@@ -48,12 +56,12 @@ const Navigation = () => {
             </svg>
           </button>
         </div>
-        <section className="grid grid-cols-1 place-items-center  w-full">
+        <section className="grid grid-cols-1 place-items-center absolute top-48 w-full font-Hanson ">
           <div className="w-11/12">
-            <div className="bar mb-4"></div>
-            <h1 className="font-bold flex">
-              We &nbsp;
-              <TypeWriterEffect 
+            <div className="bar mb-8 w-28 h-1.5 rounded-3xl "></div>
+            <h1 className="font-bold text-7xl flex mb-4 our-work">
+              We&nbsp;
+              <TypeWriterEffect
                 textStyle={{
                   fontFamily: "Hanson",
                   color: "#F6F6EB",
@@ -67,10 +75,10 @@ const Navigation = () => {
                 typeSpeed={30}
               />
             </h1>
-            <p className="mb-12">
+            <p className="mb-8 text-xl tagline">
               Create A Virtual Platform For Your Business <br /> At An Instant
             </p>
-            <button className="inline-flex items-center bg-gray-100 border-0 p-2 px-4 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 font-medium">
+            <button className="get-a-tech-fact-btn inline-flex items-center bg-gray-100 border-0 p-2 px-4 focus:outline-none hover:bg-gray-200 rounded-lg text-base md:mt-0 font-medium">
               Get a Tech Fact
             </button>
           </div>

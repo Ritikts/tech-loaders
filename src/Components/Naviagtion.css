@@ -1,41 +1,27 @@
 header::before {
   content: "";
   position: absolute;
-  background: url("../img/Header.svg") no-repeat center fixed;
-  top: 0px;
-  left: 0px;
+  background: url("../img/Header.svg") no-repeat center;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
 }
 
-nav a {
-  color: var(--primary-color4);
-  margin: 0 1.875rem 0 1.875rem;
-}
-header span,
-button {
-  color: var(--primary-color4);
-}
-header section {
-  position: absolute;
-  top: 200px;
-}
-header section p, h1{
+.title-tl,
+.nav-link,
+.login-btn,
+.tagline,
+.our-work {
   color: var(--primary-color4);
 }
-header section p{
-  font-size: 1.25em;
-}
-header section .bar{
-  width: 115px;
-  height: 6px;
+.bar {
   background-color: var(--primary-color4);
-  border-radius: 100px;
-  
 }
-header section h1{
-  font-size: 4.395em;
-}
-header span {
+.title-tl {
   font-family: Hanson;
+}
+.login-btn,
+.get-a-tech-fact-btn {
+  color: var(--primary-color1);
 }

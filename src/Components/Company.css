@@ -23,30 +23,30 @@ section .p {
 .company::before {
   content: "";
   position: absolute;
-  background: url('../color-box/green-back-2.svg') no-repeat;
-  height: 50px;
-  width: 250px;
-  left: -7px;
+  background: url("../color-box/green-back-2.svg") no-repeat;
+  height: 3.125rem;
+  width: 9.375rem;
+  left: -0.4375rem;
   z-index: -1;
 }
 .business::before {
   background: url("../color-box/yellow-back.svg") no-repeat;
-  width: 75px;
+  width: 4.6875rem;
 }
 .support::before {
   background: url("../color-box/red-back.svg") no-repeat;
-  width: 70px; 
+  width: 4.375rem;
 }
 .deal::before {
   background: url("../color-box/blue-back.svg") no-repeat;
-  width: 126px;
+  width: 7.875rem;
 }
 .business::before,
 .deal::before,
 .support::before {
   content: "";
   position: absolute;
-  height: 50px;
-  left: -7px;
+  height: 3.125rem;
+  left: -0.4375rem;
   z-index: -1;
 }

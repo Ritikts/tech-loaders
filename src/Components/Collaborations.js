@@ -23,7 +23,7 @@ const Collaborations = () => {
       <section className="w-full grid place-items-center mt-16">
         <div className=" w-11/12">
           <h3 className="font-medium mb-7 h3">
-            // OUR BEST 
+            // OUR BEST
             <span className="relative collaborations "> COLLABORATIONS</span>
           </h3>
           <h1 className="mb-7 h1">

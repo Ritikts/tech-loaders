@@ -1,17 +1,16 @@
-.collaborations::before{
-    content: "";
-    position: absolute;
-    background: url('../color-box/sky-back.svg') no-repeat;
-    height: 50px;
-    width: 260px;
-    left: -7px;
-    z-index: -1;
+.collaborations::before {
+  content: "";
+  position: absolute;
+  background: url("../color-box/sky-back.svg") no-repeat;
+  height: 3.125rem;
+  width: 16.25rem;
+  left: -0.4375rem;
+  z-index: -1;
 }
-.collab-list-name{
-    height: 300px;
-    width: 310px;
-
+.collab-list-name {
+  height: 18.75rem;
+  width: 19.375rem;
 }
-.collab-list-name h1{
-    color: var(--primary-color2);
+.collab-list-name h1 {
+  color: var(--primary-color2);
 }

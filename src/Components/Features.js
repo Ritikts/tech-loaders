@@ -3,7 +3,7 @@ import "./FontFace.css";
 import "./Variable.css";
 import "./FontFace.css";
 import features from "../img/features.gif";
-import './Features.css'
+import "./Features.css";
 
 const Features = () => {
   return (
