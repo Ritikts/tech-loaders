@@ -1,0 +1,83 @@
+.all-service {
+  border-radius: 2.1875rem;
+  color: var(--primary-color4);
+  background-color: #20bf55;
+  background: linear-gradient(
+    315.19deg,
+    #0d1314 -0.27%,
+    #204e58 29.44%,
+    #287a8a 54.84%,
+    #2e9eb4 83.53%
+  );
+  z-index: 2;
+  position: relative;
+}
+.offer::before {
+  background: url("../color-box/green-back.svg") no-repeat;
+  width: 85px;
+  content: "";
+  position: absolute;
+  left: 155px;
+  height: 45px;
+  z-index: -1;
+}
+.all-service::before   {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  background: url("../img/Rectangle.png");
+  z-index: -1;
+  /* border: 2px solid red; */
+  border-radius: 2.1875rem;
+}
+.all-service img {
+  position: relative;
+  z-index: 2;
+}
+.service-list {
+  transition: all 0.3s ease-in-out;
+  background-color: var(--primary-color4);
+  color: var(--primary-color2);
+  font-size: 1.375rem;
+  position: relative;
+  overflow: hidden;
+}
+.services h3 {
+  font-size: var(--h3);
+}
+.services h1 {
+  font-size: var(--h1);
+  font-family: Hanson;
+}
+.services p {
+  font-size: var(--p);
+}
+.mob:hover,
+.web:hover,
+.soft:hover,
+.deals:hover,
+.mark:hover,
+.seo:hover {
+  transform: translateY(-0.625rem);
+}
+.mob:hover {
+  border-bottom: 0.5rem solid #fedb63;
+}
+.web:hover {
+  border-bottom: 0.5rem solid #fc6f6b;
+}
+.soft:hover {
+  border-bottom: 0.5rem solid #99d6cc;
+}
+.deals:hover {
+  border-bottom: 0.5rem solid #afc3f6;
+}
+.mark:hover {
+  border-bottom: 0.5rem solid #5bbde7;
+}
+.seo:hover {
+  border-bottom: 0.5rem solid #a898fb;
+}

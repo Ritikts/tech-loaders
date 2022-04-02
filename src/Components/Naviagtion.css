@@ -1,0 +1,47 @@
+header::before {
+  content: "";
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 73%);
+  background: url("../img/vr.png");
+  background-color: #20bf55;
+  background: linear-gradient(
+    315.19deg,
+    #0d1314 -0.27%,
+    #204e58 29.44%,
+    #287a8a 54.84%,
+    #2e9eb4 83.53%
+  );
+  height: 90vh;
+  width: 100vw;
+  z-index: 1;
+  max-width: 100%;
+}
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 73%);
+  height: 90vh;
+  width: 100vw;
+  background: url("../img/Rectangle.png");
+  z-index: 1;
+}
+header .container {
+  position: relative;
+  z-index: 2;
+}
+nav a {
+  color: var(--primary-color4);
+  margin: 0 1.875rem 0 1.875rem;
+}
+header span,
+button {
+  color: var(--primary-color4);
+}
+header section {
+  margin-top: 100px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 73%);
+}
+header span {
+  font-family: Hanson;
+}

@@ -1,0 +1,25 @@
+.member {
+  /* border: 2px solid black; */
+  box-shadow: 0px 10px 30px rgba(208, 208, 208, 0.7);
+  border-radius: 18.3px;
+}
+.name {
+  color: var(--primary-color1);
+  font-size: 1.6738em;
+}
+.post {
+  font-size: 1.25em;
+  color: var(--primary-color2);
+}
+.team::before {
+  content: "";
+  position: absolute;
+  background: url("../color-box/red-back-2.svg") no-repeat;
+  height: 40px;
+  width: 130px;
+  z-index: -1;
+  left: -12px;
+}
+.team {
+  color: #000;
+}

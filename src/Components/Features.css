@@ -1,0 +1,8 @@
+.choose-us::before {
+    content: "";
+    position: absolute;
+    background: url('../color-box/yellow-back-2.svg') no-repeat;
+    height: 50px;
+    width: 300px;
+    z-index: -1;
+}
