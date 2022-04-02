@@ -1,9 +1,8 @@
 import React from "react";
-import "./FontFace.css";
-import "./Variable.css";
-import "./FontFace.css";
+import "./css/FontFace.css";
+import "./css/Variable.css";
 import features from "../img/features.gif";
-import "./Features.css";
+import "./css/Features.css";
 
 const Features = () => {
   return (

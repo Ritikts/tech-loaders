@@ -1,7 +1,7 @@
 .choose-us::before {
     content: "";
     position: absolute;
-    background: url('../color-box/yellow-back-2.svg') no-repeat;
+    background: url('./color-box/yellow-back-2.svg') no-repeat;
     height: 3.125rem;
     width: 18.75rem;
     z-index: -1;

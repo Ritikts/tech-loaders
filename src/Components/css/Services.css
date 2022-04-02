@@ -13,7 +13,7 @@
   position: relative;
 }
 .offer::before {
-  background: url("../color-box/green-back.svg") no-repeat;
+  background: url("./color-box/green-back.svg") no-repeat;
   width: 5.3125rem;
   content: "";
   position: absolute;
@@ -28,7 +28,7 @@
   height: 100%;
   left: 0;
   width: 100%;
-  background: url("../img/Rectangle.png");
+  background: url("./css-img/Rectangle.png");
   z-index: -1;
   border-radius: 2.1875rem;
 }

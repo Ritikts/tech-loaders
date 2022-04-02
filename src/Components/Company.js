@@ -1,8 +1,8 @@
 import React from "react";
-import "./Company.css";
+import "./css/Company.css";
 import company from "../img/Company-animate.gif";
-import "./FontFace.css";
-import "./Variable.css";
+import "./css/FontFace.css";
+import "./css/Variable.css";
 import fingerprint from "../img/fingerprint.gif";
 import telephone from "../img/telephone.gif";
 import deal from "../img/deal.gif";

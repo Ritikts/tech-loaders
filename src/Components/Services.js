@@ -1,7 +1,7 @@
 import React from "react";
-import "./Services.css";
-import "./FontFace.css";
-import "./Variable.css";
+import "./css/Services.css";
+import "./css/FontFace.css";
+import "./css/Variable.css";
 import Service from "../img/Services.svg";
 
 const Services = () => {
@@ -24,7 +24,7 @@ const Services = () => {
               <h1 className="mb-7">Business Solution</h1>
               <p>
                 We provide many top level services mentioned below! Our main
-                motive is to collaborate with you and to provide you the best
+                motive is to collaborate with you and to provide you the bestcss/
                 one we have.
               </p>
             </div>

@@ -1,7 +1,7 @@
 import React from "react";
-import "./FontFace.css";
-import "./Variable.css";
-import "./Team.css";
+import "./css/FontFace.css";
+import "./css/Variable.css";
+import "./css/Team.css";
 
 const Team = () => {
   return (

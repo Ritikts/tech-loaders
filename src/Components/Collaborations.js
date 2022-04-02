@@ -1,7 +1,7 @@
 import React from "react";
-import "./FontFace.css";
-import "./Variable.css";
-import "./Collaborations.css";
+import "./css/FontFace.css";
+import "./css/Variable.css";
+import "./css/Collaborations.css";
 import IITBOMBAY from "../img/IIT BOMBAY.png";
 import SovaSkills from "../img/Sova Skills Pvt Ltd.png";
 import BlackEye from "../img/Black Eye Technologies Pvt Ltd.png";

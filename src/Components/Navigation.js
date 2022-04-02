@@ -1,8 +1,7 @@
 import React from "react";
-import "./Naviagtion.css";
-import vr from "../img/vr.png";
-import "./FontFace.css";
-import "./Variable.css";
+import "./css/Naviagtion.css";
+import "./css/FontFace.css";
+import "./css/Variable.css";
 import TypeWriterEffect from "react-typewriter-effect";
 
 const Navigation = () => {

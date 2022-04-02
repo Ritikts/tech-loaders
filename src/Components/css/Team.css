@@ -12,7 +12,7 @@
 .team::before {
   content: "";
   position: absolute;
-  background: url("../color-box/red-back-2.svg") no-repeat;
+  background: url("./color-box/red-back-2.svg") no-repeat;
   height: 2.5rem;
   width: 8.125rem;
   z-index: -1;
