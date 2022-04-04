@@ -1,0 +1,6 @@
+.collaborations::before {
+    content: "";
+    position: absolute;
+    height: 3.125rem;
+    z-index: -1;
+  }
