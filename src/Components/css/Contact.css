@@ -1,0 +1,12 @@
+.contact::before {
+    content: "";
+    position: absolute;
+    background: url("./color-box/contact.svg") no-repeat;
+    height: 2.5rem;
+    width: 230px;
+    z-index: -1;
+    left: -0.75rem;
+  }
+  .contact{
+      color: #000;
+  }

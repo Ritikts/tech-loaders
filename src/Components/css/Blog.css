@@ -1,0 +1,32 @@
+.blog-img {
+  border-radius: 1.875rem;
+}
+.blog-title {
+  color: var(--primary-color2);
+}
+.title-name {
+  color: var(--primary-color1);
+}
+.readmore::before {
+  content: "";
+  position: absolute;
+  background: url("./color-box/sky-back.svg") no-repeat;
+  height: 1.875rem;
+  width: 8.5rem;
+  left: -18px;
+  z-index: -1;
+}
+.view-all{
+  background-color: #20bf55;
+  background: linear-gradient(
+    315.19deg,
+    #0d1314 -0.27%,
+    #204e58 29.44%,
+    #287a8a 54.84%,
+    #2e9eb4 83.53%
+  );
+  padding: 8px 30px;
+  color: var(--primary-color4);
+  border-radius: 10px;
+  font-size: 1.125em;
+}
